@@ -2,24 +2,23 @@
 body  {
 	font: 100% Arial, Helvetica, sans-serif;
 	background: #9cf;
-	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	margin: 0;
 	padding: 0;
-	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
-/*	color: #000000;
-*/
+	text-align: center;
 	padding: 10px;
-	
 }
+
 .rounded {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 }
+
 #container { 
-	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	width: 780px;
 	background: #FFFFFF;
-	margin: 0px auto; /* the auto margins (in conjunction with a width) center the page */
+	margin: 0px auto;
 	border: 1px solid #000000;
-	text-align: left; /* this overrides the text-align: center on the body element. */
+	text-align: left;
 	font: small;
 	width: 800px;
 	min-height: 750px;
@@ -27,14 +26,14 @@ body  {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px
 }
-/******  header styles *****/
+
 #header { 
 	background: #fff; 
 	margin: 15px 0px 0px 0px;
-	padding: 0px 20px 0px 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	padding: 0px 20px 0px 20px;
 	text-align: center;
 }
-/***** main nav styles *****/
+
 #mainNav {
 	width: 100%;
 	
@@ -75,19 +74,14 @@ body  {
 
 /***** main content styles *****/
 #mainContent { 
-	margin: 0px 0px 0px 155px; /* the left margin on this div element creates the column down the left side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #subnav space when the content in #subnav ends. */
-	padding: 10px 20px 0px 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	margin: 0px 0px 0px 155px; 
+	padding: 10px 20px 0px 20px;
 }
 #mainContent h3 {
 	margin: 0px;
 	padding: 10px 0px 0px 0px;
 }
-/*
-#mainContent p {
-	margin: 0px;
-	padding: 0px;
-}
-*/
+
 #mainContent img {
 	border: thin solid black;
 }
@@ -97,26 +91,24 @@ body  {
 
 }
 
-/***** footer styles *****/
 #footer { 
-	padding: 0 10px 0 20px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	padding: 0 10px 0 20px;
 	background:#fff; 
 } 
 #footer p {
-	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
-	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	margin: 0;
+	padding: 10px 0;
 }
 
-/****** float styles ******/
-.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+.fltrt {
 	float: right;
 	margin-left: 8px;
 }
-.fltlft { /* this class can be used to float an element left in your page */
+.fltlft {
 	float: left;
 	margin-right: 8px;
 }
-.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+.clearfloat {
 	clear:both;
     height:0;
     font-size: 1px;
