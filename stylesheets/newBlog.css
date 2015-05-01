@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+th {
+	text-align: right;
+}
+#blogButton {
+	text-align: center;
+}
+#date {
+	margin: 10px 0px 10px 0px;
+}
+#blogBody {
+	margin: 10px 0px 10px 0px;
+}
+#image {
+	margin: 10px 0px 10px 0px;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/******* CSS Document for my the links to my classes *****/
+
+#mainContent h4 {
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#classLinks {
+	font-size: small;
+	padding: 10px 0px 20px 20px;
+	margin: 0px;
+}
+

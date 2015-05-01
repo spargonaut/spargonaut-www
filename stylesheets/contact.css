@@ -1,0 +1,29 @@
+/* this is the stylesheet for the contact page */
+
+h3 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
+}
+
+.info {
+	padding-top: 0px;
+	padding-left: 165px;
+	margin-top: 0px;
+}
+
+table {
+	margin-left: 50px;
+	width: 599px;
+}
+
+th {
+	text-align: right;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+td {
+	text-align: left;
+}

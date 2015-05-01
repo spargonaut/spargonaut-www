@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document for spargonaut's blog */
+#blogBody {
+	margin: 0px 0px 0px 155px;
+	padding: 2px 10px 0px 20px;
+	
+	max-width: 450px;
+}
+
+#greyBox {
+/*	margin: 0px 0px 0px 155px;
+	padding: 0px 0px 0px 10px;
+*/	
+	max-width: 450px;
+	background-color: #ddd;
+	
+	padding: 0px 15px 0px 15px;
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+#whiteBox {
+/*	margin: 0px 0px 0px 155px;
+	padding: 0px 0px 0px 10px;
+*/	
+	max-width: 450px;
+	
+	padding: 0px 15px 0px 15px;
+}
