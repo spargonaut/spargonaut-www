@@ -1,0 +1,116 @@
+@charset "UTF-8";
+body  {
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #9cf;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding: 10px;
+}
+
+.rounded {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+#container { 
+	width: 780px;
+	background: #FFFFFF;
+	margin: 0px auto;
+	border: 1px solid #000000;
+	text-align: left;
+	font: small;
+	width: 800px;
+	min-height: 750px;
+
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px
+}
+
+#header { 
+	background: #fff; 
+	margin: 15px 0px 0px 0px;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+}
+
+#mainNav {
+	width: 100%;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	background: #326daf;
+	text-align: center;
+	vertical-align: middle;
+}
+#mainNav table {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+}	
+#mainNav a {
+	margin: 0px;
+	padding: 2px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+#mainNav a:hover {
+	background-color: #aaa;
+	color: #000;
+}
+/***** sub nav styles *****/
+#subNav {
+	float: left; /* since this element is floated, a width must be given */
+	width: 122px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	min-height: 200px;
+	background: #fff; /* the background color will be displayed for the length of the content in the column, but no further */
+	margin: 19px 0px 0px 0px;
+	padding: 15px 10px 15px 20px;
+}
+
+/***** main content styles *****/
+#mainContent { 
+	margin: 0px 0px 0px 155px; 
+	padding: 10px 20px 0px 20px;
+}
+#mainContent h3 {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+#mainContent img {
+	border: thin solid black;
+}
+
+#construction {
+	padding: 20px 0px 0px 0px;
+
+}
+
+#footer { 
+	padding: 0 10px 0 20px;
+	background:#fff; 
+} 
+#footer p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
