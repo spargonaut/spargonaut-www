@@ -1,78 +1,52 @@
 /***** css logo *****/
 #logo_container {
-    border-radius: 25px;
-    border: 2px solid #8AC007;
-    padding: 20px; 
+    border-radius: 40px;
+    border: 2px solid #000000;
     width: 600px;
-    height: 72px; 
     display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #logo_text {
-    float: left;
-    display: inline-block;
-/*    border: 2px solid #F00; */
-    height: 72px;     
     background: none;
     margin: 6px;
     font-family: helvetica, arial, sans-serif;
-    font-size: xx-large;
+    font-size: 3rem;
     font-style: normal;
+    color: black;
+    margin: 1rem;
+}
+
+.logo_dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;    
+    border-radius: 50%;
+    border: 1px solid #c9c9c9;
+    padding: 20px; 
+    top: 4%;
 }
 
 #logo_blue_dot {
-    float: right;
-    border-radius: 25px;
-    border: 1px solid #c9c9c9;
-    padding: 20px; 
-    width: 6px;
-    height: 4px;    
     background: #99ccff;
-    margin: 6px;
+    left: 58%;
 }
 
 #logo_orange_dot {
-    float: right;
-    border-radius: 25px;
-    border: 1px solid #c9c9c9;
-    padding: 20px;
-    width: 6px;
-    height: 6px;
     background: #fbaa34;
-    margin: 6px;
+    left: 68%;
 }
 
 #logo_green_dot {
-    float: right;
-    border-radius: 25px;
-    border: 1px solid #c9c9c9;
-    padding: 20px;
-    width: 6px;
-    height: 6px;
     background: #39b54a;
-    margin: 6px;
+    left: 78%;
 }
 
 #logo_yellow_dot {
-    float: right;
-    border-radius: 25px;
-    border: 1px solid #c9c9c9;
-    padding: 20px;
-    width: 6px;
-    height: 6px;
     background: #fff200;
-    margin: 6px;
-}
-
-#logo_peach_dot {
-    float: right;
-    border-radius: 25px;
-    border: 2px solid #c9c9c9;
-    padding: 20px;
-    width: 6px;
-    height: 6px;
-    background: #ffd291;
-    margin: 6px;
+    left: 88%;
 }
