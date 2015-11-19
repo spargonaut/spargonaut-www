@@ -1,3 +1,7 @@
+to compile less into css:
+lessc ./src/less/styles.less ./prod/styles/styles.css
+cp ./src/index.html ./prod/index.html
+
 color pallette used:
 http://www.colourlovers.com/palette/3674968/Flash_Sentry_2
 
