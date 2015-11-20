@@ -1,6 +1,10 @@
 to compile less into css:
 lessc ./src/less/styles.less ./prod/styles/styles.css
-cp ./src/index.html ./prod/index.html
+cp ./src/*.html ./prod/
+
+to run the docker container:
+sudo docker build . && sudo docker run -d spargonaut.com-base /usr/sbin/apache2ctl -D FOREGROUND
+
 
 color pallette used:
 http://www.colourlovers.com/palette/3674968/Flash_Sentry_2
