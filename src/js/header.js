@@ -1,7 +1,14 @@
 Header = {
 
     create : function () {
+        var headerAnchor = document.createElement("a");
+        headerAnchor.setAttribute("href", "index.html");
+
+        var container = document.getElementById("container");
+        container.insertBefore(headerAnchor, container.firstChild);
+
         var headerElement = document.getElementById("logo_container");
+        headerAnchor.appendChild(headerElement);
 
         var logoText = document.createElement("span");
         logoText.textContent = "spargonaut";
@@ -12,7 +19,6 @@ Header = {
         headerElement.appendChild(this.createDot("orange", "low"));
         headerElement.appendChild(this.createDot("green", "high"));
         headerElement.appendChild(this.createDot("yellow", "low"));
-
     },
 
     createDot : function (color, position) {
