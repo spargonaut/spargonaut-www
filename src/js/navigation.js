@@ -9,7 +9,7 @@ Navigation = {
         navigationBar.appendChild(navigationList);
         navigationList.appendChild(this.createNavigationElement("reading"));
         navigationList.appendChild(this.createNavigationElement("projects"));
-        navigationList.appendChild(this.createNavigationElement("blog", "blog.spargonaut.com"));
+        navigationList.appendChild(this.createNavigationElement("blog", "http://blog.spargonaut.com"));
         navigationList.appendChild(this.createNavigationElement("resume"));
     },
 
