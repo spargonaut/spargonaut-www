@@ -23,7 +23,12 @@ Reading = {
         var author = document.createElement("div");
         author.className = "author";
         // FIXME - this should be in a loop and have a test for more than one author
-        author.textContent = book.author[0];
+        var author_list = "";
+        book.author.forEach(function (author) {
+           author_list += author + ", ";
+        });
+        author.textContent = author_list.substring(0, (author_list.length - 2));
+
 
         book_element.appendChild(title);
         book_element.appendChild(author);
