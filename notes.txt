@@ -4,6 +4,33 @@ cp ./src/*.html ./prod/
 
 to run the docker container:
 sudo docker build . && sudo docker run -d spargonaut.com-base /usr/sbin/apache2ctl -D FOREGROUND
+docker build -t spargonaut.com-base . && docker run -d spargonaut.com-base /usr/sbin/apache2ctl -D FOREGROUND
+
+(if docker daemon isn't running, you might need to run:
+#: docker-machine start default
+)
+
+to determine docker ip address:
+docker inspect <NAME>
+
+
+TODO:
+- create build file
+-- to copy/compile files to the prod directory
+--- on command
+--- as a watch file
+- add descriptions to books
+- fix docker container
+- make site mobile friendly
+-- move navigation to hamburger
+--- (make the burger layers different colors to match the dots?)
+-- media breaks: 3 - 980, 768, 480
+--- see this page: http://www.galaxydriveintheatre.com/
+--- for tablet: @media only screen and (min-width:768px) and (max-width:980px)
+--- for mobile-vertical: @media only screen and (max-width:767px)
+--- for mobile-vorizontal: @media only screen and (min-width:480px) and (max-width:767px)
+- make header and nav bar stick to top of page (always visible)
+-- see this page: http://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-multi-project-build/
 
 
 color pallette used:
