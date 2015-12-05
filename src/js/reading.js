@@ -4,7 +4,7 @@ Reading = {
         var main_content = document.getElementById("main_content");
 
         var book_list = document.createElement("ul");
-        book_list.classList = "book_list";
+        book_list.className = "book_list";
         main_content.appendChild(book_list);
 
         var book_creator = this.create_book_element;
