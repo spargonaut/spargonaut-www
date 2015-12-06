@@ -1,8 +1,9 @@
 module.exports = function (grunt) {
 
     grunt.loadNpmTasks("grunt-contrib-less");
+    grunt.loadNpmTasks("grunt-contrib-copy");
 
-    grunt.registerTask('default', ["less"]);
+    grunt.registerTask("default", ["less", "copy"]);
     grunt.initConfig({
         less : {
            development : {
@@ -15,6 +16,19 @@ module.exports = function (grunt) {
                     "prod/styles/styles.css" : "src/less/styles.less"
                }
            }
+        },
+
+        copy : {
+            main : {
+                files : [
+                    {
+                        expand : true,
+                        cwd : "src/",
+                        src : ["*.html"],
+                        dest : 'prod/'
+                    }
+                ]
+            }
         }
     });
 };
