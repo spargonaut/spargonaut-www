@@ -1,0 +1,19 @@
+{
+    "name": "spargonaut.com",
+    "version": "1.0.0",
+    "description": "my personal website",
+    "main": "Gruntfile.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "ssh://spargonaut@develop:/repos/spargonaut.com.git"
+    },
+    "author": "james spargo",
+    "license": "ISC",
+    "devDependencies" : {
+        "grunt" : "^0.4.5",
+        "grunt-contrib-less" : "^1.0.1"
+    }
+}
