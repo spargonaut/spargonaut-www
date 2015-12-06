@@ -1,6 +1,6 @@
-to compile less into css:
-lessc ./src/less/styles.less ./prod/styles/styles.css
-cp ./src/*.html ./prod/
+to compile the files to the prod directory:
+grunt
+(might need to run: npm install)
 
 to run the docker container:
 sudo docker build . && sudo docker run -d spargonaut.com-base /usr/sbin/apache2ctl -D FOREGROUND
@@ -16,8 +16,8 @@ docker inspect <NAME>
 
 TODO:
 - create build file
--- to copy/compile files to the prod directory
---- on command
+x-- to copy/compile files to the prod directory
+x--- on command
 --- as a watch file
 - add descriptions to books
 - fix docker container
