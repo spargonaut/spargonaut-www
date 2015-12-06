@@ -2,6 +2,9 @@ to compile the files to the prod directory:
 grunt
 (might need to run: npm install)
 
+to turn on the watch function (while developing):
+grunt watch
+
 to run the docker container:
 sudo docker build . && sudo docker run -d spargonaut.com-base /usr/sbin/apache2ctl -D FOREGROUND
 docker build -t spargonaut.com-base . && docker run -d spargonaut.com-base /usr/sbin/apache2ctl -D FOREGROUND
@@ -15,10 +18,10 @@ docker inspect <NAME>
 
 
 TODO:
-- create build file
+x- create build file
 x-- to copy/compile files to the prod directory
 x--- on command
---- as a watch file
+x--- as a watch file
 - add descriptions to books
 - fix docker container
 - make site mobile friendly
