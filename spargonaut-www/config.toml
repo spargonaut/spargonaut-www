@@ -20,15 +20,15 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 
 [params] # theme parameters
     author = "spargonaut" # Author's name.
-    info = "Full Stack DevOps and Magician" # Author's job title or info.
-    description = "John Doe's personal website" # Site description.
-    keywords = "blog,developer,personal" # Site keywords.
+    info = "make things easier" # Author's job title or info.
+    description = "james spargo's personal website" # Site description.
+    keywords = "blog,developer,personal,spargonaut,fossflight,sinsi,android" # Site keywords.
     avatarurl = "images/spargonaut_icon.jpg" # Contain the path of the optionnal avatar in the static folder.
 
     footercontent = "you do you" # Add footer content
 
     # Whether you want to hide copyright and credits in the footer.
-    hideCredits = false
+    hideCredits = true
     hideCopyright = false
 
     # Custom CSS
