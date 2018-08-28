@@ -52,7 +52,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 [[params.social]]
     name = "i do"
     weight = 3
-    url = "https://www.linkedin.com/in/johndoe/"
+    url = "https://www.linkedin.com/in/spargonaut/"
 
 # Menu links
 [[menu.main]]
