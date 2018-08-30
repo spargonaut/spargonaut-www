@@ -8,5 +8,5 @@ draft: true
 
 - ~~get the current spike implementation under version control in the spargonaut-www repository~~
 - figure out how to not include the dates in the project list
-- get spargonaut.com hosted and pushed up.
+- ~~get spargonaut.com hosted and pushed up.~~
 
