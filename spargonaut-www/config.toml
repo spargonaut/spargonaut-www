@@ -20,7 +20,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 
 [params] # theme parameters
     author = "spargonaut" # Author's name.
-    info = "make things easier" # Author's job title or info.
+    info = "lets make things easier" # Author's job title or info.
     description = "james spargo's personal website" # Site description.
     keywords = "blog,developer,personal,spargonaut,fossflight,sinsi,android" # Site keywords.
     avatarurl = "images/spargonaut_icon.jpg" # Contain the path of the optionnal avatar in the static folder.
@@ -29,10 +29,10 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = true
-    hideCopyright = false
+    hideCopyright = true
 
     # Custom CSS
-    custom_css =[ "styles/spargonaut-styles.css" ]
+    custom_css = [ "styles/spargonaut-styles.css" ]
 
     # RTL support
     rtl = false
@@ -52,7 +52,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
 [[params.social]]
     name = "i do"
     weight = 3
-    url = "https://www.linkedin.com/in/spargonaut/"
+    url = "/projects"
 
 # Menu links
 [[menu.main]]
