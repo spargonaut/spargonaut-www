@@ -1,7 +1,7 @@
 ---
 title: "Fossflight"
 date: 2018-08-29T21:00:17-07:00
-draft: true
+draft: false
 ---
 
 FOSS Flight is the beginnings of an Eletronic Flight Bag (EFB).  
