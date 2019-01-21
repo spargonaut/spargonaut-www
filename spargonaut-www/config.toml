@@ -25,7 +25,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     keywords = "blog,developer,personal,spargonaut,fossflight,sinsi,android" # Site keywords.
     avatarurl = "images/spargonaut_icon.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "you do you" # Add footer content
+    footercontent = "just be you" # Add footer content
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = true
