@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.spargonaut.com/posts/its-not-a-unit-test/</loc>
+    <lastmod>2019-01-26T13:15:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/projects/fossflight/</loc>
+    <lastmod>2018-08-29T21:00:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/posts/ha_i_dont_blog/</loc>
+    <lastmod>2018-07-12T17:23:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/posts/</loc>
+    <lastmod>2019-01-26T13:15:52-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/projects/</loc>
+    <lastmod>2018-08-29T21:00:17-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.spargonaut.com/</loc>
+    <lastmod>2019-01-26T13:15:52-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

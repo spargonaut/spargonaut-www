@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on home</title>
+    <link>http://www.spargonaut.com/posts/</link>
+    <description>Recent content in Posts on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jan 2019 13:15:52 -0800</lastBuildDate>
+    
+	<atom:link href="http://www.spargonaut.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Its not a unit test - repost</title>
+      <link>http://www.spargonaut.com/posts/its-not-a-unit-test/</link>
+      <pubDate>Sat, 26 Jan 2019 13:15:52 -0800</pubDate>
+      
+      <guid>http://www.spargonaut.com/posts/its-not-a-unit-test/</guid>
+      <description>This post is a reposting of one of my favorite blog posts about unit tests. It was originally posted by one of my colleagues at ThoughtWorks, but it came down when he decided to redesign his blog. I found it when I was starting out with unit testing and TDD and I think these rules really helped me to write some really good tests. Small, fast, and easy to maintain.</description>
+    </item>
+    
+    <item>
+      <title>Heh.  I&#39;m not blogging yet.</title>
+      <link>http://www.spargonaut.com/posts/ha_i_dont_blog/</link>
+      <pubDate>Thu, 12 Jul 2018 17:23:14 -0700</pubDate>
+      
+      <guid>http://www.spargonaut.com/posts/ha_i_dont_blog/</guid>
+      <description>.
+Well, this is awkward. Sorry, I&amp;rsquo;m not blogging. Not yet, anyway.
+In the mean time, you can enjoy my pithy, preachy tweets, or listen to me and some friends talk about software engineering over on the Devs talking podcast</description>
+    </item>
+    
+  </channel>
+</rss>
