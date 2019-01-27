@@ -6,10 +6,20 @@
     <description>Recent content in Posts on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Jan 2019 13:15:52 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Jan 2019 16:05:22 -0800</lastBuildDate>
     
 	<atom:link href="http://www.spargonaut.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting started with kotlin</title>
+      <link>http://www.spargonaut.com/posts/getting-started-with-kotlin/</link>
+      <pubDate>Sat, 26 Jan 2019 16:05:22 -0800</pubDate>
+      
+      <guid>http://www.spargonaut.com/posts/getting-started-with-kotlin/</guid>
+      <description>When I started with Kotlin in the spring of 2018, it had already been on my radar for a while. My reluctance to hang out on the bleeding edge and various other reasons kept me from diving into it before that.
+Once I got started though, I haven&amp;rsquo;t really looked back, and it has quickly become one of my most favorite languages to program with. I feel like I find a new reason to love it more every day.</description>
+    </item>
     
     <item>
       <title>Its not a unit test - repost</title>

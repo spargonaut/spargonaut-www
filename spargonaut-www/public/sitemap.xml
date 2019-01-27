@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.spargonaut.com/posts/getting-started-with-kotlin/</loc>
+    <lastmod>2019-01-26T16:05:22-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.spargonaut.com/posts/its-not-a-unit-test/</loc>
     <lastmod>2019-01-26T13:15:52-08:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>http://www.spargonaut.com/posts/</loc>
-    <lastmod>2019-01-26T13:15:52-08:00</lastmod>
+    <lastmod>2019-01-26T16:05:22-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,7 +46,7 @@
   
   <url>
     <loc>http://www.spargonaut.com/</loc>
-    <lastmod>2019-01-26T13:15:52-08:00</lastmod>
+    <lastmod>2019-01-26T16:05:22-08:00</lastmod>
     <priority>0</priority>
   </url>
   
