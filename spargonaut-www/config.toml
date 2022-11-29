@@ -40,20 +40,6 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
-# Social links
-[[params.social]]
-    name = "i code"
-    weight = 1
-    url = "https://github.com/spargonaut/"
-[[params.social]]
-    name = "i tweet"
-    weight = 2
-    url = "https://twitter.com/spargonaut/"
-[[params.social]]
-    name = "i do"
-    weight = 3
-    url = "/projects"
-
 # Menu links
 [[menu.main]]
     name = "blog"
