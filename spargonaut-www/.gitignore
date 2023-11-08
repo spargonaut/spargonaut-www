@@ -1,1 +1,4 @@
 zHost_backups/
+
+.hugo_build.lock
+
