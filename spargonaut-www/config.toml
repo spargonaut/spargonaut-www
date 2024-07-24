@@ -3,7 +3,7 @@
 #title = "My New Hugo Site"
 #theme = "ananke"
 
-baseurl = "https://www.spargonaut.wtf" # Hostname (and path) to the root.
+baseurl = "https://www.spargonaut.com" # Hostname (and path) to the root.
 title = "home" # Site title.
 theme = "coder" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
