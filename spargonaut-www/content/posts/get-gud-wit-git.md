@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2024-07-18T23:04:47-07:00
 title = "Get Gud Wit Git"
 slug = "Lets Get good with git!" 
