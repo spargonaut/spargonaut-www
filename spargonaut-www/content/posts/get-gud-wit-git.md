@@ -1,0 +1,33 @@
++++ 
+draft = true
+date = 2024-07-18T23:04:47-07:00
+title = "Get Gud Wit Git"
+slug = "Lets Get good with git!" 
+tags = []
+categories = []
++++
+
+Lets Get good with git!
+
+
+Over the course of my career, I've used a variety of programming languages, IDEs and other
+tools to write software.  
+
+**One tool that has almost always been there, is Git.**
+
+These are some of my favorite resources for learning, brushing up, or simply playing with
+git.
+  - learngitbranching.js.org
+    - The tutorials, and comes with a CLI to practice your git commands
+    - This site is probably my favorite in this list because it builds a
+    diagram of your commit stack as you run the commands in the tutorials. 
+    - It also comes with a sandbox in case you want to build a diagram of your commit
+    stack without having to go through the tutorials
+  - How Git Works (The Comic)
+    - https://store.wizardzines.com/products/how-git-works
+    - This is a great comic full of bite sized pieces of the inner workings of git
+    - I learned a LOT, and I already know how to use git pretty well.
+  - The Git docs
+    - The official resource for all things git
+    - https://git-scm.com/doc
+
