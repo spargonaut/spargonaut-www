@@ -6,7 +6,20 @@
     <description>Recent content in Posts on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Jan 2019 16:05:22 -0800</lastBuildDate><atom:link href="https://www.spargonaut.wtf/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jul 2024 23:04:47 -0700</lastBuildDate><atom:link href="https://www.spargonaut.wtf/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Gud Wit Git</title>
+      <link>https://www.spargonaut.wtf/posts/lets-get-good-with-git/</link>
+      <pubDate>Thu, 18 Jul 2024 23:04:47 -0700</pubDate>
+      
+      <guid>https://www.spargonaut.wtf/posts/lets-get-good-with-git/</guid>
+      <description>Lets Get good with git!
+Over the course of my career, I&amp;rsquo;ve used a variety of programming languages, IDEs and other tools to write software.
+One tool that has almost always been there, is Git.
+These are some of my favorite resources for learning, brushing up, or simply playing with git.
+ learngitbranching.js.org  The tutorials, and comes with a CLI to practice your git commands This site is probably my favorite in this list because it builds a diagram of your commit stack as you run the commands in the tutorials.</description>
+    </item>
+    
     <item>
       <title>Getting started with kotlin</title>
       <link>https://www.spargonaut.wtf/posts/getting-started-with-kotlin/</link>

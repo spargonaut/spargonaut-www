@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.spargonaut.wtf/posts/getting-started-with-kotlin/</loc>
-    <lastmod>2019-01-26T16:05:22-08:00</lastmod>
+    <loc>https://www.spargonaut.wtf/posts/lets-get-good-with-git/</loc>
+    <lastmod>2024-07-18T23:04:47-07:00</lastmod>
   </url><url>
     <loc>https://www.spargonaut.wtf/</loc>
-    <lastmod>2019-01-26T16:05:22-08:00</lastmod>
+    <lastmod>2024-07-18T23:04:47-07:00</lastmod>
   </url><url>
     <loc>https://www.spargonaut.wtf/posts/</loc>
+    <lastmod>2024-07-18T23:04:47-07:00</lastmod>
+  </url><url>
+    <loc>https://www.spargonaut.wtf/posts/getting-started-with-kotlin/</loc>
     <lastmod>2019-01-26T16:05:22-08:00</lastmod>
   </url><url>
     <loc>https://www.spargonaut.wtf/posts/its-not-a-unit-test/</loc>
