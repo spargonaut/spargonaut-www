@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.spargonaut.com/posts/lets-get-good-with-git/</loc>
+    <loc>https://www.spargonaut.wtf/posts/lets-get-good-with-git/</loc>
     <lastmod>2024-07-18T23:04:47-07:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/</loc>
+    <loc>https://www.spargonaut.wtf/</loc>
     <lastmod>2024-07-18T23:04:47-07:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/posts/</loc>
+    <loc>https://www.spargonaut.wtf/posts/</loc>
     <lastmod>2024-07-18T23:04:47-07:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/posts/getting-started-with-kotlin/</loc>
+    <loc>https://www.spargonaut.wtf/posts/getting-started-with-kotlin/</loc>
     <lastmod>2019-01-26T16:05:22-08:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/posts/its-not-a-unit-test/</loc>
+    <loc>https://www.spargonaut.wtf/posts/its-not-a-unit-test/</loc>
     <lastmod>2019-01-26T13:15:52-08:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/projects/fossflight/</loc>
+    <loc>https://www.spargonaut.wtf/projects/fossflight/</loc>
     <lastmod>2018-08-29T21:00:17-07:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/projects/</loc>
+    <loc>https://www.spargonaut.wtf/projects/</loc>
     <lastmod>2018-08-29T21:00:17-07:00</lastmod>
   </url><url>
-    <loc>https://www.spargonaut.com/categories/</loc>
+    <loc>https://www.spargonaut.wtf/categories/</loc>
   </url><url>
-    <loc>https://www.spargonaut.com/tags/</loc>
+    <loc>https://www.spargonaut.wtf/tags/</loc>
   </url>
 </urlset>

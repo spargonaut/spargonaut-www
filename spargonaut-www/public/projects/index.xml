@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on home</title>
-    <link>https://www.spargonaut.com/projects/</link>
+    <link>https://www.spargonaut.wtf/projects/</link>
     <description>Recent content in Projects on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Aug 2018 21:00:17 -0700</lastBuildDate><atom:link href="https://www.spargonaut.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Aug 2018 21:00:17 -0700</lastBuildDate><atom:link href="https://www.spargonaut.wtf/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fossflight</title>
-      <link>https://www.spargonaut.com/projects/fossflight/</link>
+      <link>https://www.spargonaut.wtf/projects/fossflight/</link>
       <pubDate>Wed, 29 Aug 2018 21:00:17 -0700</pubDate>
       
-      <guid>https://www.spargonaut.com/projects/fossflight/</guid>
+      <guid>https://www.spargonaut.wtf/projects/fossflight/</guid>
       <description>FOSS Flight is the beginnings of an Eletronic Flight Bag (EFB).
 I started FOSSFlight due to an interest in exploring Android development as well as a lot of frustrations with general aviation and the mobile apps that go with it.
 I was frustrated with the quality of the EFBs and their ability to create, modify and use checklists, the most basic of tools used by pilots when flying.
