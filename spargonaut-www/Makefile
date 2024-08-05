@@ -19,6 +19,8 @@ run:		# run the local server
 deploy-com:		# deploy the .com website
 	@hugo --config ./config.toml,./com_domain.toml
 
-.PHONY: deploy-wtf
-deploy-wtf:		# deploy the .wtf website
+
+.PHONY: gen-wtf
+gen-wtf:		# deploy the .wtf website
 	@hugo --config ./config.toml,./wtf_domain.toml
+	@./scripts/reset_footer.sh
