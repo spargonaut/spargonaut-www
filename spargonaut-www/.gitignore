@@ -2,3 +2,4 @@ zHost_backups/
 
 .hugo_build.lock
 
+public/commit.txt
