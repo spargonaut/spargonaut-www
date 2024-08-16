@@ -23,4 +23,5 @@ deploy-com:		# deploy the .com website
 .PHONY: gen-wtf
 gen-wtf:		# deploy the .wtf website
 	@hugo --config ./config.toml,./wtf_domain.toml
-	@./scripts/reset_footer.sh
+	@./scripts/reset_footer_and_commit.sh wtf
+

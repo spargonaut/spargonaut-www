@@ -19,3 +19,5 @@ fi
 
 # the only files not staged at this point should whitespace only changes
 git checkout -- .
+
+git commit -m "generate spargonaut.${1} public files"
