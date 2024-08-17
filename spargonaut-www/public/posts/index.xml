@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on home</title>
-    <link>https://www.spargonaut.wtf/posts/</link>
+    <link>https://www.spargonaut.com/posts/</link>
     <description>Recent content in Posts on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jul 2024 23:04:47 -0700</lastBuildDate><atom:link href="https://www.spargonaut.wtf/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jul 2024 23:04:47 -0700</lastBuildDate><atom:link href="https://www.spargonaut.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get Gud Wit Git</title>
-      <link>https://www.spargonaut.wtf/posts/lets-get-good-with-git/</link>
+      <link>https://www.spargonaut.com/posts/lets-get-good-with-git/</link>
       <pubDate>Thu, 18 Jul 2024 23:04:47 -0700</pubDate>
       
-      <guid>https://www.spargonaut.wtf/posts/lets-get-good-with-git/</guid>
+      <guid>https://www.spargonaut.com/posts/lets-get-good-with-git/</guid>
       <description>Lets Get good with git!
 Over the course of my career, I&amp;rsquo;ve used a variety of programming languages, IDEs and other tools to write software.
 One tool that has almost always been there, is Git.
@@ -22,20 +22,20 @@ These are some of my favorite resources for learning, brushing up, or simply pla
     
     <item>
       <title>Getting started with kotlin</title>
-      <link>https://www.spargonaut.wtf/posts/getting-started-with-kotlin/</link>
+      <link>https://www.spargonaut.com/posts/getting-started-with-kotlin/</link>
       <pubDate>Sat, 26 Jan 2019 16:05:22 -0800</pubDate>
       
-      <guid>https://www.spargonaut.wtf/posts/getting-started-with-kotlin/</guid>
+      <guid>https://www.spargonaut.com/posts/getting-started-with-kotlin/</guid>
       <description>When I started with Kotlin in the spring of 2018, it had already been on my radar for a while. My reluctance to hang out on the bleeding edge and various other reasons kept me from diving into it before that.
 Once I got started though, I haven&amp;rsquo;t really looked back, and it has quickly become one of my most favorite languages to program with. I feel like I find a new reason to love it more every day.</description>
     </item>
     
     <item>
       <title>Its not a unit test - repost</title>
-      <link>https://www.spargonaut.wtf/posts/its-not-a-unit-test/</link>
+      <link>https://www.spargonaut.com/posts/its-not-a-unit-test/</link>
       <pubDate>Sat, 26 Jan 2019 13:15:52 -0800</pubDate>
       
-      <guid>https://www.spargonaut.wtf/posts/its-not-a-unit-test/</guid>
+      <guid>https://www.spargonaut.com/posts/its-not-a-unit-test/</guid>
       <description>This post is a reposting of one of my favorite blog posts about unit tests. It was originally posted by one of my colleagues at ThoughtWorks, but it came down when he decided to redesign his blog. I found it when I was starting out with unit testing and TDD and I think these rules really helped me to write some really good tests. Small, fast, and easy to maintain.</description>
     </item>
     
