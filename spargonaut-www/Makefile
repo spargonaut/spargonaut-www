@@ -15,10 +15,11 @@ default: help
 run:		# run the local server
 	@hugo server -D
 
-.PHONY: deploy-com
-deploy-com:		# deploy the .com website
+.PHONY: gen-com
+gen-com:		# deploy the .com website
 	@hugo --config ./config.toml,./com_domain.toml
-
+	@./scripts/reset_footer_and_commit.sh com
+	@./scripts/create_archive.sh com
 
 .PHONY: gen-wtf
 gen-wtf:		# deploy the .wtf website
