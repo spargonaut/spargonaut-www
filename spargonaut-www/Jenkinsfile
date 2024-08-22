@@ -23,7 +23,7 @@ pipeline {
                     sh '''
                         echo "I\'m deploying the thing"
                         cd spargonaut-www/public
-                        ls -l
+                        ls -lR
                         scp -rp ./* ${DEPLOYMENT_USER}@${DEPLOYMENT_SERVER}:~/spargonaut.wtf/html
                     '''
                 }
