@@ -3,7 +3,8 @@
 set -euo pipefail
 
 printf "adding new .html files\n"
-git add -v *.html
+git add -v *.html > OUTPUT
+cat OUTPUT
 
 FILES_TO_RESET=$(git diff HEAD --name-only)
 
