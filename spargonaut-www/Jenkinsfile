@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                checkout scmGit(
+                    branches: [[name: 'main']],
+                    userRemoteConfigs: [[credentialsId:  'build-monkey-key',
+                   url: 'develop:/repos/spargonaut.com.git']])
+
+               sh '''
+                    cd spargonaut-www
+                    ls -l
+                '''
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                sshagent(credentials: ['deploy-monkey-key']) {
+
+                    sh '''
+                        echo "I\'m deploying the thing"
+                        cd spargonaut-www/public
+                        ls -l
+                        scp -rp ./* ${DEPLOYMENT_USER}@${DEPLOYMENT_SERVER}:~/spargonaut.wtf/html
+                    '''
+                }
+            }
+        }
+    }
+}
