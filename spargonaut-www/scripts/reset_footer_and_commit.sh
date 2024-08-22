@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+printf "running git status\n"
+git status
+
 printf "adding new .html files\n"
 git add -v *.html
 
@@ -16,11 +19,17 @@ for FILE in $FILES_TO_RESET; do
   fi
 done
 
+printf "running git status\n"
+git status
+
 # stage files with more than just whitespace-only changes
 printf "Staging files with more than whitespace changes\n"
 if [[ $(git diff -w --no-color | wc -l) -ne 0 ]]; then
   git diff -w --no-color | git apply --cached --ignore-whitespace
 fi
+
+printf "running git status\n"
+git status
 
 # the only files not staged at this point should whitespace only changes
 printf "resetting the whitespace changes\n"
