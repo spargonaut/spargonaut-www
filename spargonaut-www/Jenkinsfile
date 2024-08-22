@@ -9,10 +9,13 @@ pipeline {
                     userRemoteConfigs: [[credentialsId:  'build-monkey-key',
                    url: 'develop:/repos/spargonaut.com.git']])
 
-               sh '''
+               sh(script: '''
+                    git config user.email "jenkins@spargonaut.com"
+                    git config user.name "Build Monkey"
                     cd spargonaut-www
                     make gen-wtf
-                '''
+                ''',
+                returnStdout: true)
             }
         }
 
