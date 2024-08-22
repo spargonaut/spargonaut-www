@@ -27,4 +27,4 @@ printf "resetting the whitespace changes\n"
 git checkout -- .
 
 printf "commit the changes verbosely\n"
-git commit -mv "generate spargonaut.${1} public files"
+git commit -v -m "generate spargonaut.${1} public files"
