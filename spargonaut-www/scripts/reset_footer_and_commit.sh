@@ -2,7 +2,10 @@
 
 set -euo pipefail
 
-FILES_TO_RESET=$(git diff --name-only)
+printf "adding new .html files\n"
+git add -v *.html
+
+FILES_TO_RESET=$(git diff HEAD --name-only)
 
 printf "resetting the footer\n"
 for FILE in $FILES_TO_RESET; do
