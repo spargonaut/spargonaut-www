@@ -14,6 +14,7 @@ pipeline {
                     git config user.name "Build Monkey"
                     cd spargonaut-www
                     make gen-wtf
+                    git status
                 ''',
                 returnStdout: true)
             }
