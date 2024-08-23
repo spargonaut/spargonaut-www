@@ -18,7 +18,7 @@ pipeline {
                 returnStdout: true)
 
                 withCredentials([sshUserPrivateKey(credentialsId: 'build-monkey-key', keyFileVariable: 'BUILD_MONKEY_KEY')]) {
-                    sh(script: 'git commit', returnStdout: true)
+                    sh(script: 'git commit -m "generate spargonaut.wtf public files"', returnStdout: true)
                 }
             }
         }
