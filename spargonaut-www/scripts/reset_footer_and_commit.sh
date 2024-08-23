@@ -38,5 +38,5 @@ git checkout -- .
 printf "running git status\n"
 git status
 
-printf "commit the changes verbosely\n"
-git commit -v -m "generate spargonaut.${1} public files"
+#printf "commit the changes verbosely\n"
+#git commit -v -m "generate spargonaut.${1} public files"
