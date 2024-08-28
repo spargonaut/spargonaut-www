@@ -21,6 +21,7 @@ pipeline {
                     sh(script: '''
                         git status
                         git commit -m "generate spargonaut.wtf public files in the build pipeline"
+                        git push origin main
                     ''', returnStdout: true)
                 }
             }
